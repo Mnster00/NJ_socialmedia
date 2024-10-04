@@ -6,13 +6,13 @@ This repository contains code and data related to a social media analysis of Nan
 
 1. **Analysis Scripts**:
    - `correlation.py`: Generates correlation maps
-   - `njattentionheatmap.py`: Creates heatmaps showing tweet category percentages
-   - `njattention.py`: Visualizes tweet counts for different areas
+   - `njattentionheatmap.py`: Creates heatmaps showing post category percentages
+   - `njattention.py`: Visualizes post counts for different areas
    - `njsentiment.py`: Produces sentiment statistics for different areas
 
 2. **Data Files**:
    - `nanjing.json`: GeoJSON file containing geographical data for Nanjing districts
-   - `keywords.txt`: List of keywords used for tweet collection
+   - `keywords.txt`: List of keywords used for post collection
    - `nanjing_sentiment_data.csv`: Sentiment analysis data
    - `Post_NonSensitive.csv`: Sample of 450 anonymized posts
 
@@ -28,7 +28,7 @@ To reproduce the analysis:
 
 - The `nanjing.json` file contains geographical boundaries for Nanjing districts.
 - `keywords.txt` lists the keywords used to collect relevant tweets.
-- `nanjing_sentiment_data.csv` contains aggregated sentiment data for the analyzed tweets.
+- `nanjing_sentiment_data.csv` contains aggregated sentiment data for the analyzed posts.
 - `Post_NonSensitive.csv` provides a sample of 450 anonymized posts for reference.
 
 ## Ethical Considerations
